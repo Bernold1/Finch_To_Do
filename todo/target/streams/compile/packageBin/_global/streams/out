@@ -1,0 +1,33 @@
+[debug] Packaging D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\todo_2.12-0.0.1-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	Bernold
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold
+[debug] 	Bernold\todo
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo
+[debug] 	Bernold\todo\Main$.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$15$1$$anon$2.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$15$1$$anon$2.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$15$1$$anon$4.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$15$1$$anon$4.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$15$1$anon$macro$13$1.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$15$1$anon$macro$13$1.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$15$1.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$15$1.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$7$1$$anon$1.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$7$1$$anon$1.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$7$1$$anon$3.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$7$1$$anon$3.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$7$1$anon$macro$5$1.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$7$1$anon$macro$5$1.class
+[debug] 	Bernold\todo\Main$anon$importedEncoder$macro$7$1.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$anon$importedEncoder$macro$7$1.class
+[debug] 	Bernold\todo\Main$delayedInit$body.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$delayedInit$body.class
+[debug] 	Bernold\todo\Main$Message$.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$Message$.class
+[debug] 	Bernold\todo\Main$Message.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main$Message.class
+[debug] 	Bernold\todo\Main.class
+[debug] 	  D:\skool\Funktionel Programmering\testproj\todo\target\scala-2.12\classes\Bernold\todo\Main.class
+[debug] Done packaging.
