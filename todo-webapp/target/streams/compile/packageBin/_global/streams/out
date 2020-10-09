@@ -1,0 +1,73 @@
+[debug] Packaging D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\todo-webapp_2.12-0.0.1-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	Bernold
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold
+[debug] 	Bernold\todowebapp
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp
+[debug] 	Bernold\todowebapp\InMemoryStorage$.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\InMemoryStorage$.class
+[debug] 	Bernold\todowebapp\InMemoryStorage.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\InMemoryStorage.class
+[debug] 	Bernold\todowebapp\Item$.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Item$.class
+[debug] 	Bernold\todowebapp\Item.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Item.class
+[debug] 	Bernold\todowebapp\Main$$anon$11.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$$anon$11.class
+[debug] 	Bernold\todowebapp\Main$$anon$12.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$$anon$12.class
+[debug] 	Bernold\todowebapp\Main$$anon$5.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$$anon$5.class
+[debug] 	Bernold\todowebapp\Main$$anon$6.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$$anon$6.class
+[debug] 	Bernold\todowebapp\Main$.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1$$anon$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1$$anon$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1$$anon$7.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1$$anon$7.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1$anon$macro$33$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1$anon$macro$33$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$35$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1$$anon$2.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1$$anon$2.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1$$anon$8.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1$$anon$8.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1$anon$macro$44$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1$anon$macro$44$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$46$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1$$anon$3.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1$$anon$3.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1$$anon$9.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1$$anon$9.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1$anon$macro$54$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1$anon$macro$54$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$56$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1$$anon$10.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1$$anon$10.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1$$anon$4.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1$$anon$4.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1$anon$macro$62$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1$anon$macro$62$1.class
+[debug] 	Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$importedEncoder$macro$64$1.class
+[debug] 	Bernold\todowebapp\Main$anon$macro$25$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$macro$25$1.class
+[debug] 	Bernold\todowebapp\Main$anon$macro$7$1.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$anon$macro$7$1.class
+[debug] 	Bernold\todowebapp\Main$delayedInit$body.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$delayedInit$body.class
+[debug] 	Bernold\todowebapp\Main$Message$.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$Message$.class
+[debug] 	Bernold\todowebapp\Main$Message.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main$Message.class
+[debug] 	Bernold\todowebapp\Main.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Main.class
+[debug] 	Bernold\todowebapp\Storage.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\Storage.class
+[debug] 	Bernold\todowebapp\StorageFunctionality.class
+[debug] 	  D:\skool\Funktionel Programmering\Finch-Template\todo-webapp\target\scala-2.12\classes\Bernold\todowebapp\StorageFunctionality.class
+[debug] Done packaging.
