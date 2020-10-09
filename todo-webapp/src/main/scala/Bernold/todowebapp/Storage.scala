@@ -54,7 +54,9 @@ class Storage extends StorageFunctionality{
     } yield x
 }
 
+//singleton
 object InMemoryStorage{
-  def apply(): StorageFunctionality = new Storage()
+  private val storage: StorageFunctionality = new Storage()
+  def apply(): StorageFunctionality = storage
 }
 
