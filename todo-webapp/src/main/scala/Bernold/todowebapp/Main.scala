@@ -36,17 +36,39 @@ object Main extends App {
 
   def randomMultiplier: Endpoint[IO, Double] = get("multiply"){Ok(mathstuff(scala.math.random, scala.math.random))}
 
-  def allToDos: Endpoint[IO, List[Item]] = get("todos") { Ok(InMemoryStorage().getAll()) }
-
   val postedToDo: Endpoint[IO , Item] = jsonBody[UUID =>Item].map(_(UUID.randomUUID()))
 
+  //Create todos Endpoint
   def addToDo: Endpoint[IO, Item] = post("todo" :: postedToDo){todo: Item =>
     val newToDo = InMemoryStorage().add(todo)
     Ok(newToDo)
   }
 
+  //Get all todos endpoint
+  def allToDos: Endpoint[IO, List[Item]] = get("todos") { Ok(InMemoryStorage().getAll()) }
+
+  //Delete endpoint (path[UUID] is a URL param):
+  def removeToDo: Endpoint[IO, Item] = delete("todo" :: path[UUID]) {id: UUID =>
+    val result = for {
+      item <- InMemoryStorage().get(id)
+      deleted <- InMemoryStorage().delete(item)
+    } yield deleted
+
+    result.fold[Output[Item]](NotFound(new Exception))(Ok)
+
+  }
+
   //For editing
-  val patchedToDo: Endpoint[IO, Item => Item] = jsonBody[Item=>Item]
+  def editToDo: Endpoint[IO, Item] = patch("todo"::path[UUID]::jsonBody[Item]){(id: UUID, updateToDo: Item) =>
+    var result = for {
+      edited <- InMemoryStorage().update(id,updateToDo) //hmm?
+    } yield edited
+
+      result.fold[Output[Item]](NotFound(new Exception))(Ok)
+  }
+
+  def getCompleted: Endpoint[IO, List[Item]] = get("todo/progress/inactive") { Ok(InMemoryStorage().getCompleted())}
+  def getInProgress: Endpoint[IO, List[Item]] = get("todo/progress/active"){Ok(InMemoryStorage().getInProgress()) }
 
   def service: Service[Request, Response] = Bootstrap
     .serve[Text.Plain](healthcheck)
@@ -54,6 +76,10 @@ object Main extends App {
     .serve[Application.Json](randomMultiplier)
     .serve[Application.Json](allToDos)
     .serve[Application.Json](addToDo)
+    .serve[Application.Json](removeToDo)
+    .serve[Application.Json](editToDo)
+    .serve[Application.Json](getCompleted)
+    .serve[Application.Json](getInProgress)
     .toService
 
   Await.ready(Http.server.serve(":8081", service))
